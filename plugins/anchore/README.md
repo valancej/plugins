@@ -52,7 +52,7 @@ steps:
     dockerfile: Dockerfile
     metadata:
       set:
-      	- QA: Pending Anchore scan..
+      	- QA: Pending Anchore scan before push to Dockerhub..
   ScanMyImage:
     title: Scanning Docker Image
     image: anchore/engine-cli:latest
