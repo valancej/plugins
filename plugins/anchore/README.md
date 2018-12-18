@@ -17,6 +17,8 @@ In this example, we will scan an image built by Codefresh. Depending on the resu
 
 - Example `codefresh.yml`: https://raw.githubusercontent.com/valancej/plugins/master/plugins/anchore/codefresh.yml
 - Github repo containing Dockerfile: https://github.com/valancej/node_critical_fail
+- Anchore Documentation: https://anchore.freshdesk.com/support/home
+- Anchore CLI Image: https://hub.docker.com/r/anchore/engine-cli/
 
 ### Setup
 
