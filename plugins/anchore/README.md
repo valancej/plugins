@@ -24,6 +24,19 @@ In this example, we will scan an image built by Codefresh. Depending on the resu
 
 #### Environment Variables
 
+The minimal setup is described below. 
+
+Name|Required|Description
+---|---|---
+ANCHORE_CLI_URL|Yes|The address of the Anchore server
+ANCHORE_CLI_USER|Yes|Anchore account name
+ANCHORE_CLI_PASS|Yes|Anchore account password
+ANCHORE_FAIL_ON_POLICY|No|Fail build if policy evaluation fails
+QA_IMAGE|No|Image built and scanned
+dockerhubUsername|No|Dockerhub account name
+dockerhubPassword|No|Dockerhub account password
+
+
 Set these up within Codefresh pipeline config.
 
 ```
