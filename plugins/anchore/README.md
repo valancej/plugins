@@ -7,7 +7,7 @@ For more information view the github repo here: https://github.com/anchore/ancho
 ## Prerequisites
 
 - Codefresh subscription
-- Anchore Engine service
+- Running Anchore Engine service
 
 ## Usage
 
