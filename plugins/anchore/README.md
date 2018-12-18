@@ -8,3 +8,21 @@ For more information view the github repo here: https://github.com/anchore/ancho
 
 - Codefresh subscription
 - Anchore Engine service
+
+## Usage
+
+In this example, we will scan an image built by Codefresh. Depending on the result of the Anchore policy evaluation, we will choose to push the image to Dockerhub or not. 
+
+### Setup
+
+#### Environment Variables
+
+```
+ANCHORE_CLI_URL=http://<url-of-anchore-engine>:8228/v1
+ANCHORE_CLI_USER=<anchore-username>
+ANCHORE_CLI_PASS=<anchore-password>
+QA_IMAGE=<image-name>
+ANCHORE_FAIL_ON_POLICY=<True or False>
+dockerhubUsername=<dockerhub-username>
+dockerhubPassword=<dockerhub-password>
+```
