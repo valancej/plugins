@@ -22,6 +22,8 @@ In this example, we will scan an image built by Codefresh. Depending on the resu
 
 #### Environment Variables
 
+Set these up within Codefresh pipeline config.
+
 ```
 ANCHORE_CLI_URL=http://<url-of-anchore-engine>:8228/v1
 ANCHORE_CLI_USER=<anchore-username>
