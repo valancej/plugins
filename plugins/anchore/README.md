@@ -13,6 +13,11 @@ For more information view the github repo here: https://github.com/anchore/ancho
 
 In this example, we will scan an image built by Codefresh. Depending on the result of the Anchore policy evaluation, we will choose to push the image to Dockerhub or not. 
 
+### Reference
+
+- Example `codefresh.yml`: https://raw.githubusercontent.com/valancej/plugins/master/plugins/anchore/codefresh.yml
+- Github repo containing Dockerfile: https://github.com/valancej/node_critical_fail
+
 ### Setup
 
 #### Environment Variables
