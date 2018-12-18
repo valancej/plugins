@@ -38,7 +38,7 @@ dockerhubPassword=<dockerhub-password>
 
 ### Codefresh.yml
 
-```
+```yaml
 version: '1.0'
 steps:
   MyDockerImage:
