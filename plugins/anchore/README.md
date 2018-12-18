@@ -22,9 +22,11 @@ In this example, we will scan an image built by Codefresh. Depending on the resu
 
 ### Setup
 
-#### Environment Variables
+The example setup is described below. 
 
-The minimal setup is described below. 
+### Environment Variables
+
+These environment variables can be set within Codefresh pipeline configuration.
 
 Name|Required|Description
 ---|---|---
@@ -35,19 +37,6 @@ ANCHORE_FAIL_ON_POLICY|No|Fail build if policy evaluation fails
 QA_IMAGE|No|Image built and scanned
 dockerhubUsername|No|Dockerhub account name
 dockerhubPassword|No|Dockerhub account password
-
-
-Set these up within Codefresh pipeline config.
-
-```
-ANCHORE_CLI_URL=http://<url-of-anchore-engine>:8228/v1
-ANCHORE_CLI_USER=<anchore-username>
-ANCHORE_CLI_PASS=<anchore-password>
-QA_IMAGE=<image-name>
-ANCHORE_FAIL_ON_POLICY=<True or False>
-dockerhubUsername=<dockerhub-username>
-dockerhubPassword=<dockerhub-password>
-```
 
 ### Codefresh.yml
 
